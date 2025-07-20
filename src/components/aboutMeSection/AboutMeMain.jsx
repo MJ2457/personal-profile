@@ -8,7 +8,7 @@ const AboutMeMain = () => {
   return (
     <div
       id="about"
-      className="flex md:flex-row sm:flex-col gap-12 px-4 max-w-[1200pz] mx-auto mt-[100px] justify-between items-center"
+      className="flex flex-col md:flex-row gap-8 md:gap-12 px-4 max-w-[1200px] mx-auto mt-[50px] md:mt-[100px] justify-between items-center"
     >
       <motion.div
         variants={fadeIn("right", 0.2)}

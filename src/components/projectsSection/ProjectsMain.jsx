@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
-import { image } from "motion/react-client";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 

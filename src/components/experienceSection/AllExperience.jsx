@@ -40,7 +40,7 @@ const experiences = [
 
 const AllExperience = () => {
   return (
-    <div className="flex md:flex-row sm:flex-col items-center justify-between">
+    <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0">
       {experiences.map((experience, index) => {
         return (
           <React.Fragment key={index}>
@@ -52,7 +52,7 @@ const AllExperience = () => {
                 whileInView="show"
                 viewport={{ once: false, amount: 0 }}
               >
-                <FaArrowRight className="text-6xl text-orange lg:block sm:hidden" />
+                <FaArrowRight className="text-4xl md:text-6xl text-orange hidden lg:block" />
               </motion.div>
             ) : null}
           </React.Fragment>

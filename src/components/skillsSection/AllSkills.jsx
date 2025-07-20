@@ -1,7 +1,7 @@
 import React from "react";
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiNextdotjs } from "react-icons/si";
+import { SiNextdotjs, SiVuedotjs } from "react-icons/si";
 import SingleSkill from "./SingleSkill";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
@@ -38,6 +38,10 @@ const skills = [
   {
     skill: "NextJS",
     icon: SiNextdotjs,
+  },
+  {
+    skill: "Vue.js",
+    icon: SiVuedotjs,
   },
 ];
 

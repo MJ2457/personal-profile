@@ -4,7 +4,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
+import { SiNextdotjs, SiVuedotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
@@ -42,11 +42,15 @@ const skills = [
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
   },
+  {
+    skill: "Vue.js",
+    icon: SiVuedotjs,
+  },
 ];
 
 const AllSkillsSM = () => {
   return (
-    <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-12 my-12">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-12 my-8 md:my-12 px-4">
       {skills.map((item, index) => {
         return (
           <motion.div
